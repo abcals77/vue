@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <!-- 컨테이너 앨리먼트 -->
+  <div id="app">
+    <span v-html="firstname"></span>
+    <span :id>{{lastname}}</span> <!-- 동적으로 id를 변경함 -->
+    <button :disabled="isDisable">등록</button>
+    <div v-bind = "objectOfAttrs">여러 속성을 바인딩</div>
+  </div>
+
+  <script>
+    const {
+      createApp
+    } = Vue // Vue createApp을 바로 변수 createApp에 넣기
+
+    const vm = createApp({
+      data() {
+        return {
+          objectOfAttrs: {
+            id: 'container',
+            class: 'wrapper'
+          },
+          isDisable: false,
+          id: 'username',
+          firstname: 'scott',
+          lastname: 'tom'
+        }
+      }
+    }).mount('#app')
+  </script>
+</body>
+
+</html>
