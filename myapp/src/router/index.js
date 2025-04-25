@@ -4,7 +4,7 @@ import HelloWorld from '../components/HelloWorld.vue'
 import MemberForm from '../views/MemberForm.vue'
 import Todo from '../views/Todo.vue';
 import Movie from '../views/Movie.vue';
-import Emp from '../views/Emp.vue';
+import Emp from '../views/EmpView.vue';
 import ParamView from '../views/ParamView.vue';
 
 const routes = [
@@ -13,7 +13,7 @@ const routes = [
   { path: '/paramView/:username', component: ParamView},
   { path: '/Todo', component: Todo },
   { path: '/Movie', component: Movie },
-  { path: '/Emp', component: Emp }
+  { path: '/empView', component: Emp }
 ]
 
 const router = createRouter({

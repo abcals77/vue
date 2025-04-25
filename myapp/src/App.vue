@@ -4,10 +4,10 @@ import GoodsView from './components/goods.vue';
 import MemberForm from './views/MemberForm.vue';
 import Todo from './views/Todo.vue';
 import Movie from './views/Movie.vue';
-import Emp from './views/Emp.vue';
+import EmpView from './views/EmpView.vue';
 
 export default {
-  components : {GoodsView, MemberForm, Todo, Movie, Emp},
+  components : {GoodsView, MemberForm, Todo, Movie, EmpView},
   data(){
     return {
       fruits : ["사과", "바나나", "키위"],
@@ -42,6 +42,9 @@ export default {
         </li>
         <li class="nav-item">
           <RouterLink to="/memberForm" aria-current="page">회원가입</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/empView" aria-current="page">직원</RouterLink>
         </li>
         <li class="nav-item">
           <RouterLink to="/paramView/kim" aria-current="page">파라미터1</RouterLink>
