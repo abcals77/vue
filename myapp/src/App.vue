@@ -52,6 +52,9 @@ export default {
         <li class="nav-item">
           <RouterLink to="/paramView/park" aria-current="page">파라미터2</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/EmpView" aria-current="page">직원</RouterLink>
+        </li>
       </ul>
     </div>
   </div>
