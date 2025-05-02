@@ -13,6 +13,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/parent">자식컴퍼넌트에서 부모컴포넌트</RouterLink>
         <RouterLink to="/parent4">자식컴퍼넌트에서 부모컴포넌트4</RouterLink>
         <RouterLink to="/emp">사원정보</RouterLink>
+        <RouterLink to="/Todo">Todo</RouterLink>
+        <RouterLink to="/slot">Slot</RouterLink>
       </nav>
     </div>
   </header>
