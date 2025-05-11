@@ -14,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/component">컴포넌트</RouterLink>
         <RouterLink to="/provide">Provide</RouterLink>
         <RouterLink to="/watch">watch</RouterLink>
+        <RouterLink to="/store">Store</RouterLink>
       </nav>
     </div>
   </header>

@@ -15,6 +15,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/emp">사원정보</RouterLink>
         <RouterLink to="/Todo">Todo</RouterLink>
         <RouterLink to="/slot">Slot</RouterLink>
+        <RouterLink to="/vuetify">Vuetify</RouterLink>
+        <RouterLink to="/store">Store</RouterLink>
       </nav>
     </div>
   </header>
